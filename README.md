@@ -1,0 +1,3 @@
+Old uni project for integrating normalized asteroid lightcurves using elipsoids, works by randomly generating points on the ellipsoids surface and triangulating it by using higher-dimension Bowyer-Watson algorith to first split it into tetrahedrons and removing triangles that are not on the outer surface.
+
+Compilation with gfortran for example by using "gfortran -o Lightcurve.exe Quaternion_type.f90 Sameness.f90 Vertex_qcoord.f90 Vertex_generation.f90 Recursive_det.f90 Incremental_DT.f90 Integrator.f90 Delaunay.f90".
